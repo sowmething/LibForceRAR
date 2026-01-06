@@ -1,0 +1,4 @@
+C:\Users\mseve\source\repos\libforcerar\libforcerar\bin\Debug\libforcerar.dll
+C:\Users\mseve\source\repos\libforcerar\libforcerar\obj\Debug\libforcerar.csproj.AssemblyReference.cache
+C:\Users\mseve\source\repos\libforcerar\libforcerar\obj\Debug\libforcerar.csproj.CoreCompileInputs.cache
+C:\Users\mseve\source\repos\libforcerar\libforcerar\obj\Debug\libforcerar.dll

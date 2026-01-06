@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "libforcerar", "libforcerar\libforcerar.csproj", "{4CEE8526-CC17-4961-97C0-B3F3F8326FD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4CEE8526-CC17-4961-97C0-B3F3F8326FD9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CEE8526-CC17-4961-97C0-B3F3F8326FD9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CEE8526-CC17-4961-97C0-B3F3F8326FD9}.Debug|x64.ActiveCfg = Debug|x64
+		{4CEE8526-CC17-4961-97C0-B3F3F8326FD9}.Debug|x64.Build.0 = Debug|x64
+		{4CEE8526-CC17-4961-97C0-B3F3F8326FD9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CEE8526-CC17-4961-97C0-B3F3F8326FD9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CEE8526-CC17-4961-97C0-B3F3F8326FD9}.Release|x64.ActiveCfg = Release|x64
+		{4CEE8526-CC17-4961-97C0-B3F3F8326FD9}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B857553A-BBBA-4BDA-9121-89EC8436D615}
+	EndGlobalSection
+EndGlobal
