@@ -16,9 +16,38 @@ RAR brute forcing library for windows written in C#
 - You can download the compiled files in libforcerar/bin folder.
 
 ## Usage
-Brute force file archive.rar, number until 30000 
+Brute force file archive.rar, 30000 tries, write the result
 ```
 using libforcerar;
 
-string rarpass = ForceRar.Bruteforce("archive.rar", 30000);```
+string rarpass = ForceRar.Bruteforce("archive.rar", 30000);
+Console.WriteLine(rarpass);
+```
+
+Brute force file archive.rar, 30000 tries, 500 threads, write the result
+```
+using libforcerar;
+
+string rarpass = ForceRar.BruteforceThread("archive.rar", 30000, 500);
+Console.WriteLine(rarpass);
+```
+
+Brute force file archive.rar, 30000 tries, custom unrar, write result
+```
+using libforcerar;
+
+string rarpass = ForceRar.BruteforceCustomUnrar("archive.rar", 30000, "C:\\Program files\\Winrar\\Unrar.exe");
+Console.WriteLine(rarpass);
+```
+
+Brute force file archive.rar, 30000 tries, 500 threads, custom unrar, write result
+```
+using libforcerar;
+
+string rarpass = ForceRar.BruteforceCustomUnrarThread("archive.rar", 30000, "C:\\Program Files\\Winrar\\Unrar.exe", 500);
+Console.WriteLine(rarpass);
+```
+
+
+
 
