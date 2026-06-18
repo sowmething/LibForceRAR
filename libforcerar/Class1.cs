@@ -84,7 +84,9 @@ namespace LibForceRar
                     Directory.Delete(tempDir, true);
                 }
             }
-            catch { /* Ignore cleanup errors */ }
+            catch { 
+            
+            }
         }
 
         private static string TryBruteforce(string rarPath, long maxNumber, string tempDir, string customUnrarPath)
@@ -101,7 +103,7 @@ namespace LibForceRar
                     return password;
                 }
             }
-            return null; // No password found
+            return null;
         }
 
         private static string TryBruteforceThreaded(string rarPath, long maxNumber, int threadCount, string tempDir, string customUnrarPath)
@@ -126,7 +128,7 @@ namespace LibForceRar
                     {
                         lock (lockObject)
                         {
-                            if (foundPassword != null) return; // Exit if password found
+                            if (foundPassword != null) return;
                         }
 
                         string password = i.ToString();
@@ -173,3 +175,5 @@ namespace LibForceRar
         }
     }
 }
+
+// I hope this is helpful for you
